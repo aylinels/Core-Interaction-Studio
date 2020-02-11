@@ -1,0 +1,126 @@
+body{
+	font-family: Termina;
+	font-size: 100px;
+}
+
+html {
+   animation-name: fadeIn; 
+    animation-duration: 1s; 
+    animation-iteration-count: 1;
+    animation-timing-function: linear;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+p {
+	position: relative;
+	margin: -0.5em;
+  color: black;
+  top: 5px;
+  left: 10px;
+  transform: skew(50deg);
+}
+ 
+
+#e {
+ 	color: #e90000;
+ }
+
+#m {
+ 	color: #e90000;
+ }
+
+#p {
+ 	color: #e90000;
+ }
+
+#h {
+ 	color: #e90000;
+ }
+
+#a {
+ 	color: #e90000;
+ }
+#s {
+ 	color: #e90000;
+ }
+#i {
+ 	color: #e90000;
+ }
+#z {
+ 	color: #e90000;
+ }
+#e2 {
+ 	color: #e90000;
+ }
+
+.bar {
+   position: relative;
+   width: 25px;
+   height: 30px;
+   background-color: black;
+   display: inline-block;
+   margin: 3px;
+   left: 30vw;
+   top: -4vh;
+}
+
+#bar1:hover{
+  background-color: white;
+}
+
+#bar2:hover{
+  background-color: white;
+}
+
+#bar3:hover{
+  background-color: white;
+}
+
+#bar3{
+  background-color: red;
+}
+
+#bar4:hover{
+  background-color: white;
+}
+
+#bar5:hover{
+  background-color: white;
+}
+
+#bar6:hover{
+  background-color: white;
+}
+
+#bar7:hover{
+  background-color: white;
+}
+
+#bar8:hover{
+  background-color: white;
+}
+
+#bar9:hover{
+  background-color: white;
+}
+
+#bar10:hover{
+  background-color: white;
+}
+
+#bar11:hover{
+  background-color: white;
+}
+
+#bar12:hover{
+  background-color: white;
+}

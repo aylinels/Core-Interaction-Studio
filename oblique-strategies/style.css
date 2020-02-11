@@ -1,0 +1,146 @@
+html {
+   animation-name: fadeIn; 
+    animation-duration: 1s; 
+    animation-iteration-count: 1;
+    animation-timing-function: linear;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+.square {
+  position: absolute;
+  width: 200px;
+  height: 200px;
+  left: 42%;
+  top: 40%;
+  background-color: gray;
+  animation-name: moveleft;
+  animation-duration: 4s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+  animation-delay: 3s;
+  transition-timing-function: ease-in;
+}
+
+.square2 {
+  position: absolute;
+  width: 200px;
+  height: 200px;
+  left: 42%;
+  top: 40%;
+  background-color: gray;
+  animation-name: moveright;
+  animation-duration: 4s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+  animation-delay: 3s;
+  transition-timing-function: ease-in;
+}
+
+@keyframes moveleft {
+  0% {left: 42%;}
+  100% {left: 32%;
+        background-color: black;}
+}
+
+@keyframes moveright {
+  0% {left: 42%;}
+  100% {left: 52%;
+        background-color: white;
+        border: solid black 1px;
+        width: 199px;
+        height: 199px;}
+}
+
+p {
+  position: absolute;
+  left: 44%;
+  top: 34%;
+  font-size: 10px;
+  font-family: Termina;
+}
+
+#definition {
+  position: absolute;
+  left: 34.5%;
+  top: 70%;
+  font-size: 10px;
+  font-family: Termina;
+  transition: opacity 0.2s 1s ease;
+}
+
+.bar {
+   position: relative;
+   width: 15px;
+   height: 15px;
+   background-color: black;
+   display: inline-block;
+   margin: 3px;
+   left: 38vw;
+   top: 75vh;
+}
+
+#bar1:hover{
+  background-color: white;
+}
+
+#bar1 {
+  background-color: red;
+}
+
+
+#bar2:hover{
+  background-color: white;
+}
+
+
+#bar3:hover{
+  background-color: white;
+}
+
+#bar4:hover{
+  background-color: white;
+}
+
+#bar5:hover{
+  background-color: white;
+}
+
+#bar6:hover{
+  background-color: white;
+}
+
+#bar7:hover{
+  background-color: white;
+}
+
+#bar8:hover{
+  background-color: white;
+}
+
+#bar9:hover{
+  background-color: white;
+}
+
+#bar10:hover{
+  background-color: white;
+}
+
+#bar11:hover{
+  background-color: white;
+}
+
+#bar12:hover{
+  background-color: white;
+}
+
+
+

@@ -1,0 +1,165 @@
+html {
+   animation-name: fadeIn; 
+    animation-duration: 1s; 
+    animation-iteration-count: 1;
+    animation-timing-function: linear;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+p {
+  position: relative;
+  font-family: Termina;
+  font-size: 100px;
+  color: black;
+  display: inline-block;
+  line-height: 20%;
+}
+
+.differences {
+  position: absolute;
+  top: 100px;
+}
+
+.e:hover {
+ display: none;
+}
+
+.m:hover {
+ display: none;
+}
+
+.p:hover {
+ display: none;
+}
+
+.a:hover {
+ display: none;
+}
+
+.s:hover {
+ display: none;
+}
+
+.i:hover {
+ display: none;
+}
+
+.e2:hover {
+ display: none;
+}
+
+.d:hover {
+ display: none;
+}
+
+.i2:hover {
+ display: none;
+}
+
+.f:hover {
+ display: none;
+}
+
+.f2:hover {
+ display: none;
+}
+
+.e3:hover {
+ display: none;
+}
+
+.r:hover {
+ display: none;
+}
+
+.e4:hover {
+ display: none;
+}
+
+.n:hover {
+ display: none;
+}
+
+.c:hover {
+ display: none;
+}
+
+.e5:hover {
+ display: none;
+}
+
+.s2:hover {
+ display: none;
+}
+
+.bar {
+   position: relative;
+   width: 50px;
+   height: 80px;
+   background-color: black;
+   display: inline-block;
+   margin: 3px;
+   left: 35vw;
+   top: 10vh;
+}
+
+#bar1:hover{
+  background-color: white;
+}
+
+#bar2:hover{
+  background-color: white;
+}
+
+#bar3:hover{
+  background-color: white;
+}
+
+#bar4:hover{
+  background-color: white;
+}
+
+#bar5:hover{
+  background-color: white;
+}
+
+#bar6{
+   background-color: red;
+}
+
+#bar6:hover{
+  background-color: white;
+}
+
+#bar7:hover{
+  background-color: white;
+}
+
+#bar8:hover{
+  background-color: white;
+}
+
+#bar9:hover{
+  background-color: white;
+}
+
+#bar10:hover{
+  background-color: white;
+}
+
+#bar11:hover{
+  background-color: white;
+}
+
+#bar12:hover{
+   background-color: white;
+}

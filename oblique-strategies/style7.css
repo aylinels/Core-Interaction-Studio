@@ -1,0 +1,156 @@
+html {
+   animation-name: fadeIn; 
+    animation-duration: 1s; 
+    animation-iteration-count: 1;
+    animation-timing-function: linear;
+    margin: 0
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+p {
+  position: relative;
+  font-family: Termina;
+  font-size: 10px;
+  color: black;
+  display: inline-block;
+  line-height: 20%;
+  top: 73vh;
+  left: 28vw;
+}
+
+#emphasize {
+  position: absolute;
+  font-size: 130px;
+  color: white;
+  top: 130vh;
+  left: 2vw;
+}
+
+#differences {
+  position: absolute;
+  font-size: 3px;
+  color: black;
+  top: 280vh;
+  left: 60vw;
+/*  text-shadow: 1px 2px 10px black;*/
+  letter-spacing: 0.100em;
+}
+
+
+.line {
+  position: absolute;
+  height: 150px;
+  width: 2px;
+  background-color: black;
+  left: 30vw;
+  top: 79vh;
+}
+
+.square {
+  position: absolute;
+  height: 150px;
+  width: 20px;
+  background-color: white;
+  left: 30vw;
+  top: 80vh;
+  animation-name: gradient;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+  transition-timing-function: ease-in;
+  transition-delay: 3s;
+}
+
+@keyframes gradient {
+  0%   {background-color:white; left:30vw; top: 80vh;}
+  100% {background-color:white; left:30vw; top: 100vh;}
+}
+
+.square2 {
+  position: absolute;
+  height: 100vh;
+  width: 101vw;
+  background-color: black;
+  top: 100vh;
+  left: -1px;
+}
+
+.square3 {
+  position: absolute;
+  height: 100vh;
+  width: 101vw;
+  background-color: white;
+  top: 200vh;
+  left: -1px;
+}
+
+.bar {
+   position: relative;
+   width: 20px;
+   height: 25px;
+   background-color: black;
+   margin: 3px;
+   left: 93vw;
+   top: 4vh;
+   display: block;
+}
+
+#bar1:hover{
+  background-color: white;
+}
+
+#bar2:hover{
+  background-color: white;
+}
+
+#bar3:hover{
+  background-color: white;
+}
+
+#bar4:hover{
+  background-color: white;
+}
+
+#bar5:hover{
+  background-color: white;
+}
+
+#bar6:hover{
+  background-color: white;
+}
+
+#bar7{
+  background-color: red;
+}
+
+#bar7:hover{
+  background-color: white;
+}
+
+#bar8:hover{
+  background-color: white;
+}
+
+#bar9:hover{
+  background-color: white;
+}
+
+#bar10:hover{
+  background-color: white;
+}
+
+#bar11:hover{
+  background-color: white;
+}
+
+#bar12:hover{
+   background-color: white;
+}
