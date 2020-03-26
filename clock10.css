@@ -1,0 +1,156 @@
+body {
+font-family: ITC Avant Garde Gothic Pro;
+font-weight: bold;
+}
+
+a { 
+ text-decoration: none;
+ color: black;}
+
+#time {
+position: absolute;
+top: 50%;
+left: 49%;
+font-size: 2vh;
+color: transparent;
+text-shadow: 0px 0px 2.5px #000;
+}
+
+#white {
+position: absolute;
+top: 47%;
+left: 52.1%;
+background-color: white;
+height: 40px;
+width: 100px;
+box-shadow: 0px 0px 2px white;
+}
+
+#button {
+position: absolute;
+width: 50vw;
+height: 100vh;
+top: 0%;
+left: 50%;
+background-color: white;
+}
+
+#button2 {
+position: absolute;
+width: 25vw;
+height: 100vh;
+top: 0%;
+left: 25%;
+background-color: white;
+}
+
+#button3 {
+position: absolute;
+width: 25vw;
+height: 100vh;
+top: 0%;
+left: 0%;
+background-color: white;
+}
+.animation{
+animation-name: zoom-out;
+animation-iteration-count: 1;
+animation-duration: 4s;
+animation-fill-mode: forwards;
+}
+
+.animation2{
+animation-name: move;
+animation-iteration-count: 1;
+animation-duration: 4s;
+animation-fill-mode: forwards;
+}
+
+
+@keyframes zoom-out {
+ 0%   {font-size: 2vh;}
+ 100% {font-size: 1vh;
+top: 50%;
+left: 49%;
+color: transparent;
+text-shadow: 0px 0px 2.5px #000;}
+}
+
+@keyframes move {
+ 0%   {left: 52.1%;}
+ 100% {left: 49.5%;
+ 	box-shadow: 0px 0px 5px white;}
+}
+
+.anim{
+animation-name: out;
+animation-iteration-count: 1;
+animation-duration: 2s;
+animation-fill-mode: forwards;
+}
+
+.anim2{
+animation-name: back;
+animation-iteration-count: 1;
+animation-duration: 2s;
+animation-fill-mode: forwards;
+}
+
+@keyframes out {
+ 0%   {font-size: 2vh;}
+ 100% {font-size: 4vh;
+top: 47%;
+left: 49%;
+color: transparent;
+text-shadow: 0px 0px 2.5px #000;}
+}
+
+@keyframes back {
+ 0%   {left: 52.1%;}
+ 100% {left: 55%;
+ 	box-shadow: 0px 0px 5px white;}
+}
+
+#bar {
+ position: absolute;
+ width: 30vw;
+ height: .3vh;
+ background-color: black;
+ left: 37%;
+ top: 95%;
+}
+
+#navigation {
+ position: absolute;
+ width: 30vw;
+ height: 1vh;
+ background-color: white;
+ left: 64%;
+ top: 94.5%;
+}
+
+.anim-bar{
+animation-name: anim-bar;
+animation-iteration-count: 1;
+animation-duration: 2s;
+animation-fill-mode: forwards;
+}
+
+@keyframes anim-bar {
+ 0%   {left: 64%;}
+ 100% {left: 67%;}
+}
+
+.anim-back{
+animation-name: anim-back;
+animation-iteration-count: 1;
+animation-duration: 2s;
+animation-fill-mode: forwards;
+}
+
+@keyframes anim-back {
+ 0%   {left: 64%;}
+ 100% {left: 61%;}
+}
+
+
