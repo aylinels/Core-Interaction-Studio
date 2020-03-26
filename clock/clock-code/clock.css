@@ -1,0 +1,84 @@
+body {
+font-family: ITC Avant Garde Gothic Pro;
+font-weight: bold;
+font-size: 10vh;
+}
+
+/*span {
+position: absolute;
+top: 30%;
+left: 2%;
+font-size: 40vh;
+}*/
+
+#monthday {
+position: absolute;
+top: 40%;
+left: 3%;
+font-size: 15vh;
+}
+
+#weekday {
+position: absolute;
+top: 50%;
+left: 3%;
+font-size: 15vh;
+}
+
+.white {
+position: absolute;
+top: 80%;
+left: 2%;
+background-color: white;
+height: 300px;
+width: 500px;
+}
+
+.day {
+position: absolute;
+top: 42%;
+left: 3%;
+font-size: 25vh;
+}
+
+.milliseconds {
+position: absolute;
+top: 58%;
+left: 83%;
+font-size: 8vh;
+}
+
+.season {
+position: absolute;
+top: 61%;
+left: 70%;
+font-size: 15vh;
+}
+
+.week {
+position: absolute;
+top: 21%;
+left: 85%;
+font-size: 5vh;
+}
+
+.year {
+position: absolute;
+top: 15.5%;
+left: 85%;
+font-size: 5vh;
+}
+
+.moon {
+position: absolute;
+top: 17%;
+left: 60%;
+width: 300px;
+text-transform: uppercase;
+font-size: 4vh;
+}
+
+
+
+
+

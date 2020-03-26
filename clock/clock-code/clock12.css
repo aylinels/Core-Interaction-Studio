@@ -1,0 +1,185 @@
+body {
+font-family: ITC Avant Garde Gothic Pro;
+font-weight: bold;
+}
+
+a { 
+ text-decoration: none;
+ color: black;}
+
+#time {
+position: absolute;
+top: 30%;
+left: 2%;
+font-size: 40vh;
+}
+
+#date {
+position: absolute;
+top: 17%;
+left: 3%;
+font-size: 15vh;
+}
+
+#day {
+position: absolute;
+top: 42%;
+left: 5%;
+font-size: 25vh;
+}
+
+#milliseconds {
+position: absolute;
+top: 59%;
+left: 88%;
+font-size: 8vh;
+}
+
+#season {
+position: absolute;
+top: 61%;
+left: 70%;
+font-size: 15vh;
+}
+
+#week {
+position: absolute;
+top: 21%;
+left: 85%;
+font-size: 5vh;
+}
+
+#year {
+position: absolute;
+top: 15.5%;
+left: 85%;
+font-size: 5vh;
+}
+
+#moon {
+position: absolute;
+top: 17%;
+left: 60%;
+width: 300px;
+text-transform: uppercase;
+font-size: 4vh;
+}
+
+
+#button {
+position: absolute;
+width: 50vw;
+height: 100vh;
+top: 0%;
+left: 50%;
+background-color: white;
+}
+
+#button2 {
+position: absolute;
+width: 50vw;
+height: 100vh;
+top: 0%;
+left: 0%;
+background-color: white;
+}
+
+.animation{
+animation-name: zoom-out;
+animation-iteration-count: 1;
+animation-duration: 2s;
+animation-fill-mode: forwards;
+}
+
+.animation2{
+animation-name: zoomtwo;
+animation-iteration-count: 1;
+animation-duration: 2s;
+animation-fill-mode: forwards;
+}
+
+.animation3{
+animation-name: zoomthree;
+animation-iteration-count: 1;
+animation-duration: 2s;
+animation-fill-mode: forwards;
+}
+
+.animation4{
+animation-name: zoomfour;
+animation-iteration-count: 1;
+animation-duration: 2s;
+animation-fill-mode: forwards;
+}
+
+.animation5{
+animation-name: zoomfive;
+animation-iteration-count: 1;
+animation-duration: 2s;
+animation-fill-mode: forwards;
+}
+
+@keyframes zoom-out {
+ 0%   {font-size: 40vh;}
+ 100% {font-size: 35vh;
+ top: 35%;
+left: 8%;}
+}
+
+@keyframes zoomtwo {
+ 0%   {font-size: 15vh;}
+ 100% {font-size: 12vh;
+ left: 8%;
+ top: 24%;}
+}
+
+@keyframes zoomthree {
+ 0%   {font-size: 25vh;}
+ 100% {font-size: 20vh;
+ top: 40%;
+left: 8%;}
+}
+
+@keyframes zoomfour {
+ 0%   {font-size: 8vh;}
+ 100% {font-size: 7vh;
+ top: 57%;
+left: 82%;}
+}
+
+@keyframes zoomfive {
+ 0%   {font-size: 15vh;}
+ 100% {font-size: 12vh;
+ top: 58%;
+left: 70%;}
+}
+
+#bar {
+ position: absolute;
+ width: 29vw;
+ height: .3vh;
+ background-color: black;
+ left: 37%;
+ top: 95%;
+}
+
+#navigation {
+ position: absolute;
+ width: 30vw;
+ height: 1vh;
+ background-color: white;
+ left: 37%;
+ top: 94.5%;
+}
+
+.anim-bar{
+animation-name: anim-bar;
+animation-iteration-count: 1;
+animation-duration: 2s;
+animation-fill-mode: forwards;
+}
+
+@keyframes anim-bar {
+ 0%   {left: 37%;}
+ 100% {left: 40%;}
+}
